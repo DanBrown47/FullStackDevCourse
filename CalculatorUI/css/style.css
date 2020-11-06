@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+h3{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.input{
+    display: inline-block;
+    float: right;
+
+}
+
+.wrapper {
+    display:inline-block;
+    border: 10px solid black ;
+    border-radius : 10px 10px 10px 10px;
+}
+
+
+header{
+    text-align: left;
+}
+body {
+    text-align: center; /* reset this so you can you display:inline-block in wrapper */
+    background-color: black ;
+}
+
+button {
+    border: 1Px solid white;
+    background-color: #F1F1F1 ; /* light grey */
+    font-size: 24Px;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+    
+button:hover
+{
+    background-color: #909090;  /*dark grey*/
+    cursor: pointer;
+}
+
+#btnEquals {
+    width: 160px;
+    background-color: #00FFFF;  /* aqua */
+}
+
+#btnEquals:hover
+{
+    background-color: #ADD8E6; /* light blue */
+    cursor: pointer;  
+}
+
+.newRow {
+    clear: both;
+}
