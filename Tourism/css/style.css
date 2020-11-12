@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+
+ background-size: initial;
+ background-repeat: no-repeat;
+}
+
+header
+{
+  background-color:transparent;
+  height: 4em;
+}
+.panel{
+  margin: 0px;
+}
+
+.panel-heading{
+  background-color: grey;
+  border: 1px solid grey;
+}
+
+.ima
+{
+  /* margin-left: 40px; */
+  margin-top: 5px;
+}
+
+.main_heading{
+  background-color: rgba(76,175,80,0.4); /* <!--Opacity tricks--> */
+  margin-top: 2em;
+  margin-left: 2em;
+  font-family: Kaushan Script; 
+  line-height: 0.8em;
+  color:aliceblue;
+}
+@media screen and (max-width: 768px) {    /*Responivity*/
+  h1{
+      font-size:14px;
+  }
+}
+
+
+.carousel-item
+{
+  float: left;
+  margin-top: 27em; 
+  width: 150px;
+}
+
+
+.bar-tag
+{
+  float: right;
+  color: black;
+  margin-top: 22px;
+  margin-right: 40px;
+}
+
+.bar-tag a
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 8px;
+  margin-right: 4px;
+}
+
+
+.bar-tag a:hover
+{
+  background-color: teal;
+  color: black;
+}
+
+.loginx
+{
+ float: right;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+ border: 2px solid white;  
+ margin-top: 6%;
+ margin-right: 5%;
+ padding: 30px;
+}
+
+
+footer
+{
+    background-color: #393f37;
+    text-align: center;
+    height: 10em;
+    color: white;
+
+}
+
+.black{
+  color: white;
+  background-color: black;
+}
+
+.box{
+  background-color:rgba(200,200,200,0.5) !important;
+
+  text-align: center;
+  padding:15px;
+
+
+}

@@ -1,0 +1,63 @@
+
+html,body{
+background-image: url('/img/loginx_background.jpg');
+background-size: cover;
+font-family: sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 340px;  /*Wanted to enclose the bird */
+margin-top: auto;
+margin-bottom: auto;
+width: 450px;
+background-color: rgba(0,0,0,0.5);
+}
+
+.card-reg{
+    height: 540px;  /*Wanted to enclose the bird */
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 450px;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+.card-header h3 {
+color: white;
+}
+
+.white {
+    color: white;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #4274ff;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+
+.loginx_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.loginx_btn:hover{
+color: black;
+background-color: white;
+}
+
+
+
