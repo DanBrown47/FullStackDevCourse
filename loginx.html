@@ -19,21 +19,30 @@
 				<h3>Sign In</h3>
 			</div>
 			<div class="card-body">
-				<form>
+				<form action="loginx.html" onsubmit="return check() && password_check()">
+
+					<!-- useremail -->
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="Dan Brown">
-						
+						<input type="text" class="form-control" id="loginmail" placeholder="admin@danwand.me">
 					</div>
+					<label for="mailerror" id="mailerror"></label>
+
+
+					<!-- password  -->
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Sup3RS3CRT!!!">
+						<input type="password" class="form-control" id="passwd" placeholder="Sup3RS3CRT!!!">
+						
 					</div>
+					<label for="passout" id="passout"></label>
 
+
+					
 					<div class="form-group">
                         <input type="submit" value="Login" class="btn login_btn">
 					</div>
@@ -43,11 +52,12 @@
 				<div class=" justify-content-center">
 					Don't have an account?<a href="/sign.html">Sign Up</a>
 				</div>
-
-				</div>
+				
 			</div>
+		</div>
 		</div>
 	</div>
 </div>
+<script src="js/login.js"></script>
 </body>
 </html>
