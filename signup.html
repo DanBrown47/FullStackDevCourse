@@ -16,14 +16,15 @@
 				<h3>Register</h3>
 			</div>
 			<div class="card-body">
-				<form>
+				<form action="signup.html" onsubmit="return validate() && password() && phone() && username()">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="Full Name">
-						
+						<input type="email" class="form-control" id="email" placeholder="Email">
 					</div>
+					<label for="error" id="error"></label>
+
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -43,7 +44,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Enter a password">
+						<input type="password" class="form-control" id="pwd" placeholder="Enter a password">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -51,6 +52,12 @@
 						</div>
 						<input type="password" class="form-control" placeholder="Enter the password again">
 					</div>
+					<label for="pword" id="pword"></label>
+
+					<div id="prog_color">
+						<progress max="100" value="0" id="strength" style="background-color: green;"></progress></div>
+						<input type="password" class="form-control" id="pwd" placeholder="Password"><br>
+
 
 					<div class="form-group">
                         <input type="submit" value="Login" class="btn loginx_btn float-right">
@@ -67,5 +74,6 @@
 		</div>
 	</div>
 </div>
+<script src="js/form.js"></script>
 </body>
 </html>
